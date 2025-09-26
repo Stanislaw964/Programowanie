@@ -73,3 +73,14 @@ Warunki programistów:
   s³owa piszemy je z du¿ej litery
 * piszemy po angielsku
 */
+
+
+/*.Program obliczaj¹cy objêtoœæ sto¿ka.
+* .Program obliczaj¹cy pole ko³a.
+* .Program obliczaj¹cy wartoœæ wyra¿enia a ^ 2 + b ^ 2
+* .Program obliczaj¹cy pole trójk¹ta o podstawie b i wysokoœci h
+* .Program obliczaj¹cy objêtoœæ kuli o promieniu r
+* .Program obliczaj¹cy pole trapezu o podstawach a i b oraz wysokoœci h
+* .Program obliczaj¹cy œredni¹ wa¿on¹ trzech liczb z podanymi odpowiednimi wagami w1, w2 i w3.
+* .Stwórz program, który pobiera od u¿ytkownika d³ugoœæ w metrach i przelicza j¹ na centymetry i milimetry, wyœwietlaj¹c wynik.
+* .Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inn¹, korzystaj¹c z okreœlonego kursu wymiany./
