@@ -69,11 +69,32 @@ void task4()
 
     std::cout << "Wynik: " << p << " cm kwadratowych \n";
 }
+//.Program obliczaj¹cy wartoœæ wyra¿enia a ^ 2 + b ^ 2
+void task5()
+{
+    int firstNumber, secondNumber;
+    std::cout << "wykonowanie dzia³ania a ^ 2 + b ^ 2\n";
+    std::cout << "Podaj pierwsz¹ liczbê (a):\n";
+    std::cin >> firstNumber;
 
+    std::cout << "Podaj drug¹ liczbê (b):\n";
+    std::cin >> secondNumber;
+
+    int w;
+
+     w= firstNumber * firstNumber + secondNumber * secondNumber;
+
+    std::cout << "Wynik dzia³ania (a ^ 2 + b ^ 2) wynosi : " << w << "\n";
+}
+//.Program obliczaj¹cy pole trójk¹ta o podstawie b i wysokoœci h
+void task6()
+{
+    
+}
 int main()
 {
    
-    task4();
+    task6();
 }
 
 
