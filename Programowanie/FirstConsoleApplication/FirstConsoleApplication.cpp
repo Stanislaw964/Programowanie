@@ -37,11 +37,43 @@ void task2()
 
     std::cout << "Wynik œredniej: " << avg << "\n";
 }
+//.Program obliczaj¹cy objêtoœæ sto¿ka.
 
+void task3()
+{
+    int h, r;
+
+    std::cout << "Podaj wyskoœæ sto¿ka w cm:\n";
+    std::cin >> h;
+
+    std::cout << "Podaj promieæ sto¿ka w cm:\n";
+    std::cin >> r;
+
+    int V;
+
+    V = (3.14 / 3) * (r * r) * h;
+
+    std::cout << "Wynik: " << V << " cm\n";
+}
+//.Program obliczaj¹cy pole ko³a.
+void task4()
+{
+    int  r;
+
+    std::cout << "Podaj promieñ ko³a w cm:\n";
+    std::cin >> r;
+
+    int p;
+
+    p = 3.14 * (r * r);
+
+    std::cout << "Wynik: " << p << " cm kwadratowych \n";
+}
 
 int main()
 {
-    task2();
+   
+    task4();
 }
 
 
@@ -83,4 +115,4 @@ Warunki programistów:
 * .Program obliczaj¹cy pole trapezu o podstawach a i b oraz wysokoœci h
 * .Program obliczaj¹cy œredni¹ wa¿on¹ trzech liczb z podanymi odpowiednimi wagami w1, w2 i w3.
 * .Stwórz program, który pobiera od u¿ytkownika d³ugoœæ w metrach i przelicza j¹ na centymetry i milimetry, wyœwietlaj¹c wynik.
-* .Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inn¹, korzystaj¹c z okreœlonego kursu wymiany./
+* .Napisz program, który konwertuje wprowadzon¹ kwotê w jednej walucie na inn¹, korzystaj¹c z okreœlonego kursu wymiany.*/
