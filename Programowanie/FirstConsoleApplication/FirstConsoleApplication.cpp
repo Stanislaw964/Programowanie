@@ -195,10 +195,26 @@ void task11()
 
 	std::cout << "Masz " << pln << " w PLN\n";
 }
+// Prokram liczonce pole prostokontu
+void task12()
+{
+	int bok1, bok2;
+
+	std::cout << "Podaj d³ugosc pierwszego boku\n";
+	std::cin >> bok1; 
+	std::cout << "Podaj d³ugosc drugiego boku\n";
+	std::cin >> bok2; 
+
+	int p;
+
+	p = bok1 * bok2;
+
+	std::cout << "Pole prostokonta wynosi " << p << "\n";
+}
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
-	task11();
+	task12();
 }
 
 
