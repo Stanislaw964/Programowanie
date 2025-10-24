@@ -7,6 +7,23 @@
 //>= - wiêkrzy b¹æ równy
 //== - równy
 //!=  ró¿ny
+//Opeaowy logiczne
+//&& - and
+// || - or
+// ! - not
+
+
+
+/*
+	a	b	&&	||	!
+	f	f	f	f	t
+	f	t	f	t	t
+	t	f	f	t	f
+	f	t	t	t	f
+
+
+
+*/
 
 
 #include <iostream>
@@ -30,7 +47,7 @@ void task1()
 
 void task2()
 {
-	int numer,reszta;
+	int numer, reszta;
 
 	std::cout << "Podaj liczbê ca³kowit¹:\n";
 	std::cin >> numer;
@@ -45,7 +62,7 @@ void task2()
 //Napisz program który stwierdzi czy liczba jest z zakresy 1 do 10
 void task3()
 {
-	int numer,liczba;
+	int numer;
 
 	std::cout << "Podaj liczbê ca³kowit¹:\n";
 	std::cin >> numer;
@@ -54,11 +71,31 @@ void task3()
 	{
 		if (numer <= 10)
 			std::cout << "liczba jest w zakresie 1 do 10\n";
-		else 
+		else
 			std::cout << "liczba nie jest w zakresie 1 do 10\n";
 	}
-}
+	else
+	{
+		std::cout << "liczba nie jest w zakresie 1 do 10\n";
+	}
 
+}
+//wrsja  3
+void task4()
+{
+	int numer;
+
+	std::cout << "Podaj liczbê ca³kowit¹:\n";
+	std::cin >> numer;
+
+	if (numer >= 1)
+		if (numer <= 10)
+			std::cout << "liczba jest w zakresie 1 do 10\n";
+		else
+			std::cout << "liczba nie jest w zakresie 1 do 10\n";
+	else
+		std::cout << "liczba nie jest w zakresie 1 do 10\n";
+}
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
