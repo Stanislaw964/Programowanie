@@ -96,10 +96,81 @@ void task4()
 	else
 		std::cout << "liczba nie jest w zakresie 1 do 10\n";
 }
+
+//*. Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb ca³kowitych i sprawdzi, czy s¹ one równe. Wyœwietl odpowiedni komunikat.
+void task5()
+{
+	float pierwszyNumer, drugiNumer;
+
+	std::cout << "Podaj pierwsz¹ liczbe\n";
+	std::cin >> pierwszyNumer;
+	std::cout << "Podaj drug¹ liczbe\n";
+	std::cin >> drugiNumer;
+
+	if (pierwszyNumer == drugiNumer)
+		std::cout << "Liczby s¹ sobie równe ";
+	else
+		std::cout << "Liczby nie s¹ sobie równe";
+
+}
+// Napisz program, który poprosi u¿ytkownika o podanie wieku i sprawdzi, czy osoba jest pe³noletnia. Wyœwietl odpowiedni komunikat.
+void task6()
+{
+	short wiek;
+	std::cout << "Podaj swój wiek\n";
+	std::cin >> wiek;
+
+	if (wiek >= 18)
+		std::cout << "jesteœ pe³noletni i kupisz sobie energola";
+	else
+		std::cout << "nie jesteœ pe³noletni i nie kupisz sobie energola";
+}
+// Napisz program, który poprosi u¿ytkownika o podanie liczby ca³kowitej i obliczy jej wartoœæ bezwzglêdn¹. Wyœwietl wynik.
+void task7()
+{
+	float liczba;
+
+	std::cout << "Podaj liczbe\n";
+	std::cin >> liczba;
+
+	if (liczba >= 0)
+		std::cout << "Twoja liczba bezwglendna wynosi "<< liczba << "\n";
+	else
+	{
+		float liczbabezwzglendna;
+		liczbabezwzglendna = liczba * -1;
+
+		std::cout << "Twoja liczba bezwglendna wynosi " << liczbabezwzglendna << "\n";
+	}
+}
+//*. Napisz program, który poprosi u¿ytkownika o podanie roku i sprawdzi, czy jest to rok przestêpny. Wyœwietl odpowiedni komunikat.
+void task8()
+{
+	int rok;
+
+	std::cout << "Podaj jakiæ rok\n";
+	std::cin >> rok;
+	int przestempny
+	
+
+	if (rok / 4)
+		std::cout << "Poda³eœ rok przestêpny";
+	else
+		std::cout << "Poda³eœ rok nie przestêpny";
+}
+//*. Napisz program, który poprosi u¿ytkownika o podanie liczby ca³kowitej i sprawdzi, czy jest ona podzielna zarówno przez 3, jak i przez 5. Wyœwietl odpowiedni komunikat.
+void task9()
+{
+	float liczba;
+	std::cout << "Podaj liczbe";
+	std::cin >> liczba;
+
+}
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
-	task3();
+	task8
+	();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
