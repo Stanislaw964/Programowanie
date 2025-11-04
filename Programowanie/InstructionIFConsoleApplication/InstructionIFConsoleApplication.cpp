@@ -150,10 +150,8 @@ void task8()
 
 	std::cout << "Podaj jakiæ rok\n";
 	std::cin >> rok;
-	int przestempny
 	
-
-	if (rok / 4)
+	if (rok % 4 == 0 && rok % 100 != 0 || rok % 400 == 0)
 		std::cout << "Poda³eœ rok przestêpny";
 	else
 		std::cout << "Poda³eœ rok nie przestêpny";
@@ -161,16 +159,19 @@ void task8()
 //*. Napisz program, który poprosi u¿ytkownika o podanie liczby ca³kowitej i sprawdzi, czy jest ona podzielna zarówno przez 3, jak i przez 5. Wyœwietl odpowiedni komunikat.
 void task9()
 {
-	float liczba;
-	std::cout << "Podaj liczbe";
+	int liczba;
+	std::cout << "Podaj liczbe\n";
 	std::cin >> liczba;
 
-}
+	if (liczba % 3 == 0 && liczba % 5 == 0)
+		std::cout << "Liczba jest podzielna przez 3 i 5\n";
+	else
+		std::cout << "Liczba nie jest podzielna przez 3 i 5\n";
+}	
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
-	task8
-	();
+	task8();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
